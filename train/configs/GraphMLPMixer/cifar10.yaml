@@ -7,7 +7,7 @@ model:
   nlayer_mlpmixer: 4
 train:
   lr_patience: 50
-  epochs: 200
+  epochs: 20
 metis:
   n_patches: 32
 pos_enc:
