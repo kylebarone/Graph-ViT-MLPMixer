@@ -11,7 +11,7 @@ def set_cfg(cfg):
     # Dataset name
     cfg.dataset = 'ZINC'
     # Additional num of worker for data loading
-    cfg.num_workers = 8
+    cfg.num_workers = 2
     # Cuda device number, used for machine with multiple gpus
     cfg.device = 0
     # Whether fix the running seed to remove randomness
