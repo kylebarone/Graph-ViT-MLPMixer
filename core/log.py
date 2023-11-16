@@ -16,6 +16,7 @@ def config_logger(cfg, OUT_PATH="results/", time=True):
     if cfg.logfile is None:
         if cfg.metis.n_patches > 0:
             model_name = cfg.model.gMHA_type
+            config_string = f'{model_name}_{cfg.model.gnn_type}_{datetime.datetime.now().strftime("%Y%m%d_%H%M%S")}'
         else:
             model_name = 'MPGNN'
             config_string = f'{model_name}_{cfg.model.gnn_type}_{datetime.datetime.now().strftime("%Y%m%d_%H%M%S")}'
