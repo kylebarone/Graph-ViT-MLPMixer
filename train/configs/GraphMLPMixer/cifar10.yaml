@@ -1,5 +1,5 @@
 dataset: CIFAR10
-num_workers: 8
+num_workers: 2
 model:
   gMHA_type: MLPMixer
   gnn_type: GINEConv
